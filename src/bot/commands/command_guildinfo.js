@@ -13,7 +13,7 @@ const servers = require(pathToServers);
 const command = {
 
 	name: 'guildinfo',
-	description: 'Get info about a user in a specfic guild.',
+	description: 'Get information about a user in a specfic guild.',
 	arguments: [],
 	requirement: 'none',
 	alias: ['ginfo'],
@@ -39,7 +39,7 @@ const command = {
 	  	})
 
 	  	const embed = {
-	    	title: `Info about ${guild.name}`,
+	    	title: `Information about ${guild.name}`,
 			color: guild.members.get(bot.user.id).highestRole.color,
 	    	thumbnail: {
 			
