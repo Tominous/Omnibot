@@ -104,7 +104,7 @@ bot.on('message', message => { try {
 		
 					// COMMAND HAS BEEN TRIGGERED
 		
-					//console.log(`| COMMAND ${cmdText} WAS TRIGGERED BY ${message.author.username}#${message.author.discriminator}`.yellow);
+					console.log(`| COMMAND ${cmdText} WAS TRIGGERED BY ${message.author.username}#${message.author.discriminator}`.yellow);
 		
 					try {
 
