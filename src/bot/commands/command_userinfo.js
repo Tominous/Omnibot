@@ -7,7 +7,7 @@
 const command = {
 
 	name: 'userinfo',
-	description: 'Get info about a user in a specfic guild.',
+	description: 'Get information about a user in a specfic guild.',
 	arguments: [],
 	alias: ['uinfo'],
 	requirement: 'none',
@@ -51,7 +51,7 @@ const command = {
 
 	  	const embed = {
 
-	  		title: `Info about : ${member.user.username}`,
+	  		title: `Information about : ${member.user.username}`,
 	  		color: member.highestRole.color,
 	  		author: {
 	  			name: member.user.username,
