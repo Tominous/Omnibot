@@ -1,1 +1,1 @@
-//console.log(width, height);
+console.log(width, height);
